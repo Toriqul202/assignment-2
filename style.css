@@ -127,8 +127,18 @@ footer{
         width: 90%;
         margin: auto;
         display: flex;
-        
-        flex-direction: column-reverse;
+        flex-direction: column;
+
+
+
     
     }
+    .first-sec{
+        
+       flex-direction: column;
+        justify-content: space-between;
+        
+        align-items: center; 
+
+        }
 }
