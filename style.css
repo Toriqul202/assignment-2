@@ -123,16 +123,7 @@ footer{
     color: white;
 }
 @media only  screen and (max-width: 480px) and (min-width: 320px){
-    .center{
-        width: 90%;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-
-
-
-    
-    }
+  
     .first-sec{
         
        flex-direction: column;
@@ -141,4 +132,25 @@ footer{
         align-items: center; 
 
         }
+        .blogs{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-row-gap: 5px;
+            grid-column-gap: 5px;
+        }
+        .title-1{
+            font-size: 20px;
+            margin-bottom: 0%;
+        }
+        .meta-1{
+            font-size: 14px;
+            text-align: justify; }
+            .btn-1{
+                padding: 8px 13px;
+            
+            
+            }
+            .blog-title{
+                font-size: 13px;
+            }
 }
