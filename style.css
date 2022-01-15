@@ -158,5 +158,11 @@ footer{
             .blog-description{
                 font-size: 10;
             }
+            .extra-sec-eliments:first-child{
+                width: 100%;  
+               }
+               .extra-sec-eliments:last-child{
+                width: 100%;  
+               }
 
 }
