@@ -27,7 +27,8 @@ body{
     border-radius: 5%;
     text-decoration: none;
     margin-top: 5%;
-    display:inline-block
+    display:inline-block;
+    margin-bottom:10px;
 
 
 }
@@ -162,7 +163,11 @@ footer{
                 width: 100%;  
                }
                .extra-sec-eliments:last-child{
-                width: 100%;  
+                width: 100%; 
+                text-align: left; 
+               }
+               .center{
+                   flex-direction: column;
                }
 
 }
